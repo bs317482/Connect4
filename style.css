@@ -1,0 +1,50 @@
+body{
+    background-color: gray;
+    text-align: center;
+    color: firebrick;
+    align-content: center;
+    content: "\f000";
+size: 2px;
+    
+}
+footer{
+    padding: 30px;
+    color: white;
+    background: transparent
+    
+}
+
+.row{
+    display: flex;
+    background-color: palevioletred;
+    flex-wrap: wrap;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    flex-direction: row;
+    flex-flow: row-reverse;
+    
+}
+.columns{
+    background-color: honeydew;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    flex-direction: column;
+    flex-grow: initial;
+
+}
+/* div{
+    background-color: honeydew;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    flex-direction: column;
+    flex-flow: column-reverse;
+    flex-grow: initial;  
+} */
+
