@@ -1,50 +1,39 @@
 body{
-    background-color: gray;
-    text-align: center;
-    color: firebrick;
-    align-content: center;
-    content: "\f000";
-size: 2px;
-    
+       text-align: center;
+    color: firebrick; 
+    background-color: steelblue; 
 }
 footer{
     padding: 30px;
-    color: white;
+    color: firebrick;
     background: transparent
     
 }
 
-.row{
-    display: flex;
-    background-color: palevioletred;
-    flex-wrap: wrap;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    flex-direction: row;
-    flex-flow: row-reverse;
+.container {
+ display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color:steelblue;  
     
 }
-.columns{
+
+.column{
     background-color: honeydew;
     display: flex;
-    flex-wrap: wrap;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
     flex-direction: column;
-    flex-grow: initial;
+    justify-content: center;
+    align-self: center;
+    margin: 5px;
+
 
 }
-/* div{
-    background-color: honeydew;
-    display: flex;
-    flex-wrap: wrap;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    flex-direction: column;
-    flex-flow: column-reverse;
-    flex-grow: initial;  
-} */
-
+h1{
+    background-color: steelblue;
+}
+.piece:hover{
+     background-color: rgb(252, 5, 5);
+}

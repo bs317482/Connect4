@@ -1,15 +1,34 @@
-// function appendRow() {
-//     var tbl = document.getElementById9('board')
-//     row = tbl.insertRow(tbl.rows.length),i;
+// document.ready
+// $('#mydiv')
+//   .css('cursor', 'pointer')
+//   .click(
+//     function(){
+//      alert('Click event is fired');
+//     }
+//   )
+//   .hover(
+//     function(){
+//       $(this).css('background', 'black');
+//     },
+//     function(){
+//       $(column).css('background', 'red');
+//     }
+//   );
+// function elemen
+// for (i = 0; i < columns.length; i++) { 
+//     text += [i] + "<br>";
 // }
-    
-// var connect = $('row');
-// for(i =0; i > 7; i++) {
-//     connect.append(<div class = 'row'></div>)
-// 
 
-
+// function
+// <div class="column">1</div>
 function myFunction() {
-    var x = document.getElementById("rows").rows.length;
-    document.getElementById("demo").innerHTML = "Found " + x + " tr elements in the table.";
+    document.getElementById("1").click();
+}
+console.log(go)
+
+var favoriteMovies = ['The Five Obstructions', 'The Triplets of Belleville', 'About Time', 'Two Weeks Notice'];
+
+console.log('My favorite movies are: ');
+for (var i = 0; i < favoriteMovies.length; i++) {
+  console.log([i + 1] + ". " + favoriteMovies[i]);
 }
