@@ -7,16 +7,16 @@
 //     
 
 
-Let PlayerOneTurn = true
-const PlaceGamePiece = function(divtochange) {
+let playerOneTurn = true
+const placeGamePiece = function(divtochange) {
     if(PlayerOne){
-        change divtochange to Red 
+        // change divtochange to Red 
         PlayerOne = false
     } else {
-        change divtochange to black 
+        // change divtochange to black 
         PlayerOneTurn = True
     }
 }
-$(.1).on('click',function()){
-    PlaceGamePiece(event.target.id)
+$(.1).on('click',function(){
+    placeGamePiece(event.target.id)
 })
