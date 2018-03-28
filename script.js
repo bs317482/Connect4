@@ -21,14 +21,22 @@
 
 // function
 // <div class="column">1</div>
-function myFunction() {
-    document.getElementById("1").click();
-}
-console.log(go)
+// function myFunction() {
+//     document.getElementById("1").click();
+// }
+// console.log(go)
 
-var favoriteMovies = ['The Five Obstructions', 'The Triplets of Belleville', 'About Time', 'Two Weeks Notice'];
+// var favoriteMovies = ['The Five Obstructions', 'The Triplets of Belleville', 'About Time', 'Two Weeks Notice'];
 
-console.log('My favorite movies are: ');
-for (var i = 0; i < favoriteMovies.length; i++) {
-  console.log([i + 1] + ". " + favoriteMovies[i]);
-}
+// console.log('My favorite movies are: ');
+// for (var i = 0; i < favoriteMovies.length; i++) {
+//   console.log([i + 1] + ". " + favoriteMovies[i]);
+// }
+var toggleColor = (function(){
+    var currentColor = "white";
+ 
+     return function(){
+         currentColor = currentColor == "white" ? "magenta" : "white";
+         d3.select(this).style("fill", currentColor);
+     }
+ })();
