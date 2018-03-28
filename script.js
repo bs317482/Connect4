@@ -15,6 +15,10 @@
 // let player = playerOne
 // switchplayer=playerone
 // ('click', '.1')
+addEventListener(){
+    const $piece = $(this.selector);
+    
+}
 
 $('.1').on('click',function(){
     placeGamePiece(event.target.id)
