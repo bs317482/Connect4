@@ -26,17 +26,9 @@
 $('.1').on('click',function(){
     placeGamePiece(event.target.id)
 })
-color = 'black'
-$('.piece').click(function(){
-    console.log("IM NOT LEAVING")
-    $(this).css('background', color)
-    
-})
-$('.1').on('click',function(){
-    placeGamePiec(event.target.id)
-})
 color = 'red'
 $('.piece').click(function(){
-    console.log("IM NOT LEAVING")
+    console.log("color change")
     $(this).css('background', color)
+    
 })
