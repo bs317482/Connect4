@@ -22,12 +22,12 @@ footer{
     margin: 0px;
 
 }
-/* .gameboard{
-display: flex;
-    flex-direction: row;
+.gameboard{
+display: inline-flex;
+ flex-direction: row;
 margin: 100px;
-align-content: center;
-} */
+align-content: center; */
+}
 
 .column{
     background-color: honeydew;
