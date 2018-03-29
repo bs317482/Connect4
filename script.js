@@ -1,7 +1,7 @@
 $('.1').on('click', function () {
     placeGamePiece(event.target.id)
 })
-let banana = [6, "text", 77, 100 ]
+let banana = [0, "text", 77, 100 ]
 
 console.log(banana)
 
@@ -20,8 +20,6 @@ $('.piece').click(function () {
         
     } else {
         $(this).css('background', color[1])
-        .last(piece)
-
         
     }
 

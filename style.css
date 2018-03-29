@@ -19,12 +19,16 @@ footer{
     background-color:steelblue;
     border: black;  
     flex-direction: column;
+    margin: 0px;
 
 }
 .gameboard{
 display: flex;
     flex-direction: row;
+margin: 100px;
+align-content: center;
 }
+
 .column{
     background-color: honeydew;
     display: flex;
