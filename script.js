@@ -12,20 +12,31 @@
 //         PlayerOneTurn = True
 //     }
 // }
-// let player = playerOne
-// switchplayer=playerone
-// ('click', '.1')
+let player = playerOne
+switchplayer=playerone
+('click', '.1')
 addEventListener(){
     const $piece = $(this.selector);
-    
+    $piece.on('mouseenter', '.piece.empty',function(){
+        console.log('here',this);
+    }
+
 }
 
 $('.1').on('click',function(){
     placeGamePiece(event.target.id)
 })
-
+color = 'black',
 $('.piece').click(function(){
-
     console.log("IM NOT LEAVING")
-    $(this).css('background', 'black')
+    $(this).css('background', color)
+
+    $('.1').on('click',function(){
+        placeGamePiece(event.target.id)
+    })
+    color = 'black',
+    $('.piece').click(function(){
+        console.log("IM NOT LEAVING")
+        $(this).css('background', color)
+    
 })
