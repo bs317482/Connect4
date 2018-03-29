@@ -17,10 +17,12 @@ $('.piece').click(function () {
 
     if (piece % 2 == 0) {
         $(this).css('background', color[0])
-        .last()
+        
     } else {
         $(this).css('background', color[1])
-        .last()
+        .last(piece)
+
+        
     }
 
 
