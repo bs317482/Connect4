@@ -14,12 +14,13 @@ footer{
  display: flex;
     justify-content: center;
     align-content: center;
-    background-color:white;  
+    background-color:steelblue;
+    border: black;  
     
 }
 
 .column{
-    background-color: steelblue;
+    background-color: honeydew;
     display: flex;
     width: 100px;
     height: 100px;
