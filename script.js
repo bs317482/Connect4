@@ -11,7 +11,7 @@ let piece = 0
 
 
 
-$('.piece').click(function () {
+$('0').click(function () {
     let column = $(this).parent().prop("id")
     // console.log("column", column)
     // console.log("testing stuff", banana[column])
