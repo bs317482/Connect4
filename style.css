@@ -53,3 +53,6 @@ h1{
 .clicked {
     background-color: yellow;
   }
+  h2{
+      font-family: fantasy;
+  }
