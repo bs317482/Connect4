@@ -18,4 +18,4 @@ $('.piece').click(function () {
     // $(this).css('background', color[0])
     piece++
     console.log("clicks: ", piece)
-})
+})   
