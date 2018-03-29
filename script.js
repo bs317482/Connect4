@@ -1,34 +1,21 @@
-// $(.'piece'),on('click', function(){
-//     placeGamePiece(event.target.id)
-// }
 
-// let playerOneTurn = true
-// const placeGamePiece = function(divtochange) {
-//     if(PlayerOne){
-//         $(this).css('background', 'black')
-//         PlayerOne = false
-//     } else {
-//         $(this).css('background', 'red')
-//         PlayerOneTurn = True
-//     }
-// }
-// let player = playerOne
-// switchplayer=playerone
-// ('click', '.1')
-// addEventListener(){
-//     const $piece = $(this.selector);
-//     $piece.on('mouseenter', '.piece.empty',function(){
-//         console.log('here',this);
-//     }
-
-// }
-
-$('.1').on('click',function(){
+$('.1').on('click', function () {
     placeGamePiece(event.target.id)
 })
-color = 'red'
-$('.piece').click(function(){
+
+color = ['red', 'yellow']
+
+let piece = 0
+
+$('.piece').click(function () {
+    if (piece % 2 == 0) {
+        $(this).css('background', color[0])
+    } else {
+        $(this).css('background', color[1])
+    }
+
     console.log("color change")
-    $(this).css('background', color)
-    
+    // $(this).css('background', color[0])
+    piece++
+    console.log("clicks: ", piece)
 })

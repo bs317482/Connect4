@@ -18,9 +18,13 @@ footer{
     align-content: center;
     background-color:steelblue;
     border: black;  
-    
-}
+    flex-direction: column;
 
+}
+.gameboard{
+display: flex;
+    flex-direction: row;
+}
 .column{
     background-color: honeydew;
     display: flex;
@@ -31,9 +35,8 @@ footer{
     justify-content: center;
     align-self: center;
     margin: 5px;
-
-
 }
+
 h1{
     background-color: steelblue;
     font-family: fantasy;
@@ -42,3 +45,7 @@ h1{
 .piece:hover{
      background-color: rgb(182, 69, 192);
 }
+
+.clicked {
+    background-color: yellow;
+  }
