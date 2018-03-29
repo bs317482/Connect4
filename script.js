@@ -1,21 +1,34 @@
-
 $('.1').on('click', function () {
     placeGamePiece(event.target.id)
 })
+let banana = [6, "text", 77, 100 ]
 
-color = ['red', 'yellow']
+console.log(banana)
+
+let color = ['red', 'yellow']
 
 let piece = 0
 
 $('.piece').click(function () {
+    let column = $(this).parent().prop("id")
+    console.log("column", column)
+    console.log("testing stuff", banana[column])
+    console.log(banana)
+
     if (piece % 2 == 0) {
         $(this).css('background', color[0])
+        .last()
     } else {
         $(this).css('background', color[1])
+        .last()
     }
 
-    console.log("color change")
-    // $(this).css('background', color[0])
+
     piece++
     console.log("clicks: ", piece)
 })   
+
+// function() {
+//     var divselection = $('#2');
+//     if 
+// }
