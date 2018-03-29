@@ -32,7 +32,7 @@ $('.piece').click(function(){
     $(this).css('background', color)
     
 })
-$('.2').on('click',function(){
+$('.1').on('click',function(){
     placeGamePiec(event.target.id)
 })
 color = 'red'
