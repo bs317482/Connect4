@@ -22,12 +22,12 @@ footer{
     margin: 0px;
 
 }
-.gameboard{
+/* .gameboard{
 display: flex;
     flex-direction: row;
 margin: 100px;
 align-content: center;
-}
+} */
 
 .column{
     background-color: honeydew;
