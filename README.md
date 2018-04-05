@@ -13,7 +13,7 @@ everything(making colors switch between even and odd clicks)
 Spence, Geo, Briana, Tyler and Me
 
 # bit ballon link
-fervent-shirley-d5ea14.bitballoon.com 
+https://fervent-shirley-d5ea14.bitballoon.com 
 
 # Trello link
 
