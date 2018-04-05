@@ -12,3 +12,14 @@ everything(making colors switch between even and odd clicks)
 - Which classmates helped you the most?
 Spence, Geo, Briana, Tyler and Me
 
+# bit ballon link
+fervent-shirley-d5ea14.bitballoon.com 
+
+# Trello link
+
+https://trello.com/b/CcoIdxgX/connect-4-creation
+
+![GitHub Logo](/Users/Bernard/Downloads/IMG_2358 2.JPG)
+Format: ![Alt Text](url)
+
+
