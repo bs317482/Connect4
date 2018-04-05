@@ -19,7 +19,6 @@ https://fervent-shirley-d5ea14.bitballoon.com
 
 https://trello.com/b/CcoIdxgX/connect-4-creation
 
-![GitHub Logo](/Users/Bernard/Downloads/IMG_2358 2.JPG)
-Format: ![Alt Text](url)
+![GitHub Logo](IMG_2358 2.JPG)
 
 
