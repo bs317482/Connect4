@@ -13,7 +13,7 @@ everything(making colors switch between even and odd clicks)
 Spence, Geo, Briana, Tyler and Me
 
 # bit ballon link
-http://hardcore-hypatia-370553.bitballoon.com/
+http://upbeat-brown-df83f2.bitballoon.com/
 # Trello link
 
 https://trello.com/b/CcoIdxgX/connect-4-creation
